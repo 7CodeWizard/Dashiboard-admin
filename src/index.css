@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sens-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Hnadle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Hnadle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
